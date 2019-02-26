@@ -29,3 +29,7 @@ maker -b VOL1.jpeg -q qr.png
 # 效果图
 
 ![](https://raw.githubusercontent.com/logan62334/qr-poster-maker/master/maker/qrVOL1.jpg)
+
+# 离岛日签小程序
+
+![](https://raw.githubusercontent.com/logan62334/qr-poster-maker/master/maker/xcx.jpg)
