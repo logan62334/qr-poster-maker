@@ -21,7 +21,7 @@
 
 # 用法
 
-VOL6.jpeg是海报背景图，qr.png是用户二维码图片。
+VOL1.jpeg是海报背景图，qr.png是用户二维码图片，最终会在当前目录下生成qrVOL1.jpeg，见下面的效果图。
 
 ```
 pip install qrmaker
