@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-from maker import __version__
-
 import click
 import PIL.Image as Image
 
@@ -27,7 +25,7 @@ class QrPostMaker(object):
             bgimg.paste(qrimg, (self.qrboxx, self.qrboxy))
 
             self.post = bgimg
-            bgimg.save("qrPost.jpg", "jpeg")
+            bgimg.save("qr{}".format(self.backImg), 'jpeg')
         except Exception as e:
             print(repr(e))
 
@@ -36,7 +34,7 @@ def output_version(ctx, param, value):
     if not value or ctx.resilient_parsing:
         return
     click.echo("qr-poster-maker version:")
-    click.echo("version: 1.0.1")
+    click.echo("version: 1.0.3")
     ctx.exit()
 
 

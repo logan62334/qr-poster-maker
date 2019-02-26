@@ -12,7 +12,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="qrmaker",
-    version="1.0.1",
+    version="1.0.3",
     description="qr code poster maker",
     long_description=open("README.md").read(),
     license="MIT Licence",
