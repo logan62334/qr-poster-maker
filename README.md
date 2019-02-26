@@ -12,12 +12,12 @@
 
 # 参数说明
 
-1、bgimg——海报背景图片
-2、qrimg——用户二维码图片
-3、qrsizex——二维码图片的长
-4、qrsizey——二维码图片的宽
-5、qrboxx——二维码在海报背景图上的x坐标
-6、qrboxy——二维码在海报背景图上的y坐标
+- 1、bgimg——海报背景图片
+- 2、qrimg——用户二维码图片
+- 3、qrsizex——二维码图片的长
+- 4、qrsizey——二维码图片的宽
+- 5、qrboxx——二维码在海报背景图上的x坐标
+- 6、qrboxy——二维码在海报背景图上的y坐标
 
 # 用法
 
@@ -30,4 +30,4 @@ maker -b VOL1.jpeg -q qr.png
 
 # 效果图
 
-![](/Users/mafei/github/qr-poster-maker/maker/qrVOL1.jpg)
+![](https://raw.githubusercontent.com/logan62334/qr-poster-maker/master/maker/qrVOL1.jpg)
